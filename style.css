@@ -1,0 +1,137 @@
+ /* styles.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('images/beach.jpeg'); /* Ajout de l'image de plage en arrière-plan */
+    background-size: cover; /* Pour couvrir toute la partie visible du corps */
+    background-position: center; /* Pour centrer l'image */
+}
+
+/* Styles de l'en-tête */
+header {
+    background-color: rgba(0, 116, 217, 0.8); /* Utilisation d'une couleur semi-transparente pour l'en-tête */
+    color: #fff;
+    text-align: center;
+    padding: 0rem;
+    
+}
+
+/* Styles du formulaire de réservation */
+.booking-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Utilisation d'une couleur semi-transparente pour le formulaire de réservation */
+    padding: 0.5rem;
+    text-align: center;
+    
+
+}
+
+.booking-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.booking-form input[type="date"],
+.booking-form button {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.booking-form button {
+    background-color: #0074D9;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Styles de la section des fonctionnalités */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Utilisation d'une couleur semi-transparente pour la section des fonctionnalités */
+}
+
+.feature {
+    position: relative;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.feature img {
+  margin-top: -1.5rem;
+    max-width: 90%;
+    height: auto;
+    min-height: 25rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+/* Styles de la section des services */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Utilisation d'une couleur semi-transparente pour la section des services */
+    
+}
+
+.service {
+    position: relative;
+    text-align: center;
+    max-width: 300px;
+    margin: 1rem;
+    
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.service h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.service p {
+    font-size: 0.9rem;
+}
+
+.service img {
+    width: 100%;
+    height: 10rem;
+    
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Utilisation d'une couleur semi-transparente pour le pied de page */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
